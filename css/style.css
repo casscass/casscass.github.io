@@ -1,0 +1,330 @@
+
+/* NAV */
+.navbar.bg-grey {
+    background:#474a4c;
+    height: 5%;
+}
+
+
+.navbar-nav a.nav-item.nav-link {
+        color: whitesmoke;
+        font-family: 'IBM Plex Sans Condensed', sans-serif; 
+        font-size: 1.5rem;
+    }
+/* END NAV */
+
+/* CONTAINER */
+.container-fluid {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'IBM Plex Sans Condensed', sans-serif; 
+    color:whitesmoke;
+}
+
+/* HEADINGS */
+h1 {
+    font-size: 4rem;     
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #474a4c;
+     
+}
+h3 {
+    font-size: 1.25rem;
+    padding-bottom: 5%;
+}
+
+p {
+    color: #474a4c;
+}
+/* NAV THEFT */
+/* body {
+    position: relative; 
+}
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;} */
+
+/* END NAV */
+
+/* TOP HEADER DIV */
+.top-box-container{
+    background-color: lightcyan;
+    background: #FF4E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #304352, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #085078;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom,  #24C6DC, #514A9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #085078;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.top-header h1 {
+    padding: 7% 0% 5% 0%; 
+    font-size: 5rem;    
+}
+.text-h3 h3 {
+    padding: 3% 0% 5% 0%; 
+}
+/* END TOP HEADER DIV */
+    
+/* PROFILE IMG */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+/* END PROFILE IMG */
+
+/* PROJECTS DIV */
+.project-container {
+    padding: 7% 0% 5% 0%;
+    background: whitesmoke;  /* fallback for old browsers */
+}
+.exhibition, .gallery {
+     padding: 5% 5% 0% 5%;    
+}
+.project-header h1 {
+    padding: 0% 0% 0% 0%;
+    color: #474a4c;
+}
+
+/* END PROJECTS DIV */
+
+/* SKILLS DIV */
+.skills-cube-container  {
+    background-color: lightyellow;
+    background: #085078;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom,  #085078, #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 7% 0% 18% 0%;
+}
+
+.skills-text h1 {
+    font-family: 'IBM Plex Sans Condensed', sans-serif; 
+    color: whitesmoke;
+}
+
+/* CUBE FOR SKILLS  */
+.cube {
+    text-align: center !important;
+    /* background-color: lightyellow; */
+    padding: 3% 0% 18% 0%    
+}
+
+.spinner  {
+    margin: 0 auto;
+    width: 120px;
+}
+
+.spinner div {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #ccc;
+    background: rgba(255,255,255,0.8);
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+    text-align: center;
+    line-height: 120px;
+    font-size: 10px;
+}
+
+.spinner .face1 { 
+    -webkit-transform: translateZ(60px);
+    -ms-transform: translateZ(60px);
+    transform: translateZ(60px);
+}
+.spinner .face2 { 
+    -webkit-transform: rotateY(90deg) translateZ(60px); 
+    -ms-transform: rotateY(90deg) translateZ(60px); 
+    transform: rotateY(90deg) translateZ(60px); 
+}
+.spinner .face3 { 
+    -webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(60px); 
+    -ms-transform: rotateY(90deg) rotateX(90deg) translateZ(60px); 
+    transform: rotateY(90deg) rotateX(90deg) translateZ(60px); 
+}
+.spinner .face4 { 
+    -webkit-transform: rotateY(180deg) rotateZ(90deg) translateZ(60px); 
+    -ms-transform: rotateY(180deg) rotateZ(90deg) translateZ(60px); 
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(60px); 
+}
+.spinner .face5 { 
+    -webkit-transform: rotateY(-90deg) rotateZ(90deg) translateZ(60px); 
+    -ms-transform: rotateY(-90deg) rotateZ(90deg) translateZ(60px); 
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(60px); 
+}
+.spinner .face6 { 
+    -webkit-transform: rotateX(-90deg) translateZ(60px); 
+    -ms-transform: rotateX(-90deg) translateZ(60px); 
+    transform: rotateX(-90deg) translateZ(60px); 
+}
+
+.spinner {
+    -webkit-animation: spincube 12s ease-in-out infinite;
+    animation: spincube 12s ease-in-out infinite;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 60px 60px 0;
+    -ms-transform-origin: 60px 60px 0;
+    transform-origin: 60px 60px 0;
+}
+
+spinner:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+
+@-webkit-keyframes spincube {
+    16%      { -webkit-transform: rotateY(-90deg);                }
+    33%      { -webkit-transform: rotateY(-90deg) rotateZ(90deg); }
+    50%      { -webkit-transform: rotateY(180deg) rotateZ(90deg); }
+    66%      { -webkit-transform: rotateY(90deg) rotateX(90deg);  }
+    83%      { -webkit-transform: rotateX(90deg);                 }
+}
+@keyframes spincube {
+    16%      { -ms-transform: rotateY(-90deg); transform: rotateY(-90deg); }
+    33%      { -ms-transform: rotateY(-90deg) rotateZ(90deg); transform: rotateY(-90deg) rotateZ(90deg); }
+    50%      { -ms-transform: rotateY(180deg) rotateZ(90deg); transform: rotateY(180deg) rotateZ(90deg); }
+    66%      { -ms-transform: rotateY(90deg) rotateX(90deg); transform: rotateY(90deg) rotateX(90deg); }
+    83%      { -ms-transform: rotateX(90deg); transform: rotateX(90deg); }
+} 
+/* END SKILLS DIV */
+
+/* CONTACT ME & ICONS */
+.contact-me-container {
+    background: whitesmoke;
+    padding: 5% 0% 5% 0%;    
+}
+
+.contact-header h1 {
+    /* padding: 7% 0% 0% 0%;  */
+    color: whitesmoke;
+    color:#474a4c;
+}
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    /* background-color: #555; Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+   
+}
+
+.icon-bar a {
+    /* float: center; Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 10%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 3% 0% 0% 1%; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color:#474a4c; /* White text color */
+    font-size: 50px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: rgb(55, 84, 128); /* Add a hover color */
+}
+
+.active {
+    background-color: rgb(55, 84, 128); /* Add an active/current color */
+}
+/* END CONTACT ME & ICONS */
+
+/* MEDIA QUERY SKILLS CUBE BREAK POINT 992PX */
+@media (min-width: 992px) and (max-width: 5000px) {
+    .spinner div {
+        width: 240px;
+        height: 240px;
+        font-size: 40px;
+        line-height: 240px;
+    }
+    .spinner  {
+        margin: 0 auto;
+        width: 240px;
+        padding-top: 10%; /* Padding changes how far the cub travells on page */
+    }
+    .spinner .face1 { 
+        -webkit-transform: translateZ(120px);
+        -ms-transform: translateZ(120px);
+        transform: translateZ(120px);
+    }
+    .spinner .face2 { 
+        -webkit-transform: rotateY(90deg) translateZ(120px); 
+        -ms-transform: rotateY(90deg) translateZ(120px); 
+        transform: rotateY(90deg) translateZ(120px); 
+    }
+    .spinner .face3 { 
+        -webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(120px); 
+        -ms-transform: rotateY(90deg) rotateX(90deg) translateZ(120px); 
+        transform: rotateY(90deg) rotateX(90deg) translateZ(120px); 
+    }
+    .spinner .face4 { 
+        -webkit-transform: rotateY(180deg) rotateZ(90deg) translateZ(120px); 
+        -ms-transform: rotateY(180deg) rotateZ(90deg) translateZ(120px); 
+        transform: rotateY(180deg) rotateZ(90deg) translateZ(120px); 
+    }
+    .spinner .face5 { 
+        -webkit-transform: rotateY(-90deg) rotateZ(90deg) translateZ(120px); 
+        -ms-transform: rotateY(-90deg) rotateZ(90deg) translateZ(120px); 
+        transform: rotateY(-90deg) rotateZ(90deg) translateZ(120px); 
+    }
+    .spinner .face6 { 
+        -webkit-transform: rotateX(-90deg) translateZ(120px); 
+        -ms-transform: rotateX(-90deg) translateZ(120px); 
+        transform: rotateX(-90deg) translateZ(120px); 
+    }
+    
+    .spinner {
+        -webkit-animation: spincube 12s ease-in-out infinite;
+        animation: spincube 12s ease-in-out infinite;
+        -webkit-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform-origin: 120px 120px 0;
+        -ms-transform-origin: 120px 120px 0;
+        transform-origin: 120px 120px 0;
+    }
+}
+/* END OF MEDIA QUERY - CUBE  BREAK POINT 992px*/
+
+
+
+
+/* SKILLS */
+
+/* @media (min-width: 1200px) and (max-width: 5000px) {
+    .spinner div {
+        background-color:blue; 
+        width: 150px;
+        height: 150px;
+        font-size: 80px;
+    } 
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .spinner div {
+        background-color: blueviolet; 
+        width: 150px;
+        height: 150px;
+        font-size: 80px;
+    } 
+}
+
+@media (min-width: 50px) and (max-width: 767px) {
+    .spinner div {
+        background-color: greenyellow;
+        width: 70px;
+        height: 70px;
+        font-size: 20px;
+    } 
+} */
