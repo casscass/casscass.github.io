@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		}
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://casscass.github.io./</title>
+  <link>https://casscass.github.io./</link>
+
+<item>
+     <link>https://casscass.github.io./</link>
+     <title>Cassandra's Resume</title>
+     <description>Cassandra's Resume</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

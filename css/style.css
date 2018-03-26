@@ -234,6 +234,7 @@ spinner:hover {
 
 .icon-bar a:hover {
     background-color: rgb(55, 84, 128); /* Add a hover color */
+    background-color: #85D8CE;
 }
 
 .active {
