@@ -5,7 +5,6 @@
     height: 5%;
 }
 
-
 .navbar-nav a.nav-item.nav-link {
         color: whitesmoke;
         font-family: 'IBM Plex Sans Condensed', sans-serif; 
@@ -38,35 +37,9 @@ h3 {
 p {
     color: #474a4c;
 }
-/* NAV THEFT */
-/* body {
-    position: relative; 
-}
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-#section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;} */
-
-/* END NAV */
 
 /* TOP HEADER DIV */
 .top-box-container{
-    background-color: lightcyan;
-    background: #FF4E50;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: #304352;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: #304352;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #304352, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: #085078;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: #24C6DC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom,  #24C6DC, #514A9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 background: #085078;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -104,7 +77,6 @@ background: linear-gradient(to bottom, #85D8CE, #085078); /* W3C, IE 10+/ Edge, 
 
 /* SKILLS DIV */
 .skills-cube-container  {
-    background-color: lightyellow;
     background: #085078;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom,  #085078, #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -298,34 +270,3 @@ spinner:hover {
     }
 }
 /* END OF MEDIA QUERY - CUBE  BREAK POINT 992px*/
-
-
-
-
-/* SKILLS */
-
-/* @media (min-width: 1200px) and (max-width: 5000px) {
-    .spinner div {
-        background-color:blue; 
-        width: 150px;
-        height: 150px;
-        font-size: 80px;
-    } 
-}
-@media (min-width: 768px) and (max-width: 1199px) {
-    .spinner div {
-        background-color: blueviolet; 
-        width: 150px;
-        height: 150px;
-        font-size: 80px;
-    } 
-}
-
-@media (min-width: 50px) and (max-width: 767px) {
-    .spinner div {
-        background-color: greenyellow;
-        width: 70px;
-        height: 70px;
-        font-size: 20px;
-    } 
-} */
